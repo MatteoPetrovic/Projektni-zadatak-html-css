@@ -1,0 +1,157 @@
+body, html {
+	font-family: 'Bernard', sans-serif;
+	margin: 0;
+	font-size: 20px;
+	background-color: #e6e1d6;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.naslovna {
+	background-image: url("pictures/guitar-header.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+    height: 450px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #C89322;
+}
+li {
+	float: left;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; 
+    text-align: center;
+}
+  
+.text-block {
+    font-family: 'Courier New';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: transparent;
+    color: white;
+    padding-left: 20px;
+	padding-right: 20px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+.active {
+    background-color: #F1BF56;
+    color: black;
+    font-weight: bold;
+  }
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+    background-color: #775307;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    }
+
+.text-block a {
+	color: white;
+	text-decoration: none;
+}
+.text-block a:hover {
+	color: #f3be4c;
+}
+
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+footer {
+	background-color: rgb(200, 147, 34);
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 55px;
+	
+}
+
+/* contact str */
+#contact {
+    margin: 1em;
+    text-align: center;
+    
+}
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Bernard', sans-serif;
+    font-size: 95%;
+    text-align: center;
+    text-align-last: center;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #5bbd5e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+label span {
+    color: red;
+}
+input[type=submit]:hover {
+    background-color: #328f37;
+}
+
+@media screen and (max-width: 700px) {
+	input[type=text], input[type=email], select, textarea, input[type=submit] {
+		width: 70%;
+	}
+		
+}
+@media screen and (max-width: 900px) {
+	.naslovna{
+		background-image: url("pictures/mguitar.png");
+		height: 260px;
+		position:relative;
+	}
+}

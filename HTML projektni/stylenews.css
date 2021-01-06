@@ -1,0 +1,191 @@
+body, html {
+	font-family: 'Bernard', sans-serif;
+	margin: 0;
+    font-size: 20px;
+    background-color: #e6e1d6;
+    
+}
+header {
+	display: block;
+	width: 100%;
+}
+.naslovna {
+	background-image: url("pictures/guitar-header.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+    height: 450px;
+
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #C89322;
+}
+li {
+	float: left;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; 
+    text-align: center;
+}
+  
+.text-block {
+    font-family: 'Courier New';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: transparent;
+    color: white;
+    padding-left: 20px;
+	padding-right: 20px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   
+  }
+.active {
+    background-color: #F1BF56;
+    color: black;
+    font-weight: bold;
+  }
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+    background-color: #775307;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    }
+h2 {
+    font-size: 3.5em;
+}
+.text-block a {
+	color: white;
+	text-decoration: none;
+}
+.text-block a:hover {
+	color: #f3be4c;
+}
+main a {
+	color: #27318b;
+	text-decoration: none;
+}
+main a:hover {
+	color: #8b3727;
+	text-decoration: underline;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+	size: 30px;
+}
+.news img {
+	width: 12%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #4d5df1;
+}
+.news hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.news time {
+	font-size: 90%;
+	font-style: italic;
+}
+
+footer {
+	background-color: rgb(200, 147, 34);
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width:55px;
+}
+
+/* news stranice */
+figure {
+	padding: 0.5em;
+	margin: 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid #e6e1d6;
+}
+figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+img {
+	width: 200px;
+}
+.vijest {
+	font-weight: bold;
+	margin: 0.8em 1em 1.5em 1em;
+}
+
+
+@media screen and (max-width: 900px) {
+	.news img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.news time {
+		margin: 0 0 0 1em;
+	}	
+	.naslovna{
+		background-image: url("pictures/mguitar.png");
+		height: 260px;
+		position:relative;
+	}
+}
+@media screen and (max-width: 1500px) {
+
+	figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 95%;
+		border-bottom: 1px solid rgb(143, 18, 18);
+	}
+	figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+	
+	#newsgallery img {
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+	#s3 , #s4 , #s5, #s6, #s7, #s8 {
+		display: none;
+	}
+
+}
